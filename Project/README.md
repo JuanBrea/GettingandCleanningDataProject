@@ -9,7 +9,8 @@ Files included in the project are:
 run_analysis.R
     This file contains two scripts:
     a) run_analysis() 
-        Runs the all data gathering. It assumes the directory UCI HAR Dataset is in the home directory of R
+        Runs the all data gathering. It assumes the directory UCI HAR Dataset is in the home directory of R 
+        
         reads the list of features from the file features.txt
         reads the list of vector of vulunter_id from ./train/subject_train.txt and ./test/subject_test.txt respectively
         reads the activity perform from ./train/y_train.txt and ./test/y_test.txt respectively
