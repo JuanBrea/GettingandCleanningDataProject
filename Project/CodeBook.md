@@ -16,7 +16,8 @@ Activity        The volunteers where measured performming on of 6 activities as 
                 4 SITTING
                 5 STANDING
                 6 LAYING
-UsedIn          A colum added by my script that identifies if the data was used in the training or test phases of the study 
+UsedIn          A colum added by my script that identifies if the data was used in the training or test phases of the study
+                This would allow the data to be split into its original form if needed
 
 I series of mean and standard deviation features extracted from the dataset
 "tBodyAcc.mean...X"              
