@@ -125,8 +125,8 @@ theMeans$Activity[theMeans$Activity==4]<-"SITTING"
 theMeans$Activity[theMeans$Activity==5]<-"STANDING"
 theMeans$Activity[theMeans$Activity==6]<-"LAYING"
 
-write.table(bigData,paste(path,"//combinedData.txt",sep=""))
-write.table(theMeans,paste(path,"//combinedMeanData.txt",sep=""))
+write.table(bigData,paste(path,"//combinedData.txt",sep=""),row.name=FALSE)
+write.table(theMeans,paste(path,"//combinedMeanData.txt",sep=""),row.name=FALSE)
 bigData
 
 }
@@ -134,7 +134,7 @@ bigData
 getMeans<-function()
 {
     path1<-paste(".//UCI HAR Dataset","//combinedMeanData.txt",sep="")
-    theMeans<-read.table(path1)
+    theMeans<-read.table(path1,header=TRUE)
     theMeans
     
 }
