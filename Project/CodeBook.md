@@ -19,7 +19,7 @@ Activity        The volunteers where measured performming on of 6 activities as 
 UsedIn          A colum added by my script that identifies if the data was used in the training or test phases of the study
                 This would allow the data to be split into its original form if needed
 
-I series of mean and standard deviation features extracted from the dataset
+I series of mean and standard deviation features extracted from the dataset. Data in standard units of 'g'
 "tBodyAcc.mean...X"              
 "tBodyAcc.mean...Y"               "tBodyAcc.mean...Z"               "tGravityAcc.mean...X"           
 "tGravityAcc.mean...Y"            "tGravityAcc.mean...Z"            "tBodyAccJerk.mean...X"          
